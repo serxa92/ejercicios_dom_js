@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    font-family: monospace;
+    font-size: 30px;
+   background-color: rgb(67, 66, 66);
+   color: antiquewhite;
+   
+}
+button{
+    background-color: rgb(67, 66, 66);
+    color: antiquewhite;
+    border: 1px solid antiquewhite;
+    padding: 5px;
+    margin: 20px;
+    cursor: pointer;
+    box-shadow: rgb(252, 252, 252) 0px 0px 5px;
+    font-weight: bold;
+    width: 200px;
+    
+}
+
+button:hover{
+    background-color: antiquewhite;
+    color: rgb(38, 37, 37);
+    font-weight: bold;
+    
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 200px;
+    
+
+}
+
+input{
+    width: 400px;
+}
